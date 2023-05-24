@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    gap: 90px;
+    background-color: bisque;
+    border-radius: 80px;
+    margin: ;
+}
+
+h2 {
+    font-family: 'Syne';
+    font-size: 50px;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Syne';
+    font-size: 30px;
+    font-weight: 400px;
+}
+
+img {
+    max-width: 400px;
+    max-height: 600px;
+    object-fit: cover;
+}
