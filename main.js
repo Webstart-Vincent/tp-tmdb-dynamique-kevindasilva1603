@@ -6,7 +6,7 @@ function getTextColor(red, green, blue) {
 }
 
 fetch(
-    'https://api.themoviedb.org/3/movie/upcoming?api_key=0a162f40e6a2a9391d8f39a96afa58b8&region=kr'
+    'https://api.themoviedb.org/3/movie/upcoming?api_key=74f149a7ef1c2a7deca9fc299e97ba59&region=kr'
 )
     .then((res) => res.json())
     .then((data) => {
